@@ -7,4 +7,4 @@
 The following tasks are currently supported:
 
 * get_file_summary: given a pdf paper, information such as key ideas, main contributions and main results of the paper are summarised using a large language model such as [llama3.1](https://ai.meta.com/blog/meta-llama-3-1/).
-* 
+* get_chat_answers: 
