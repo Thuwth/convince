@@ -1,0 +1,2 @@
+system_path: templates/llama3/system/get_chat_recommended_questions/get_chat_recommended_questions.jinja
+user_path: templates/llama3/user/get_chat_recommended_questions/get_chat_recommended_questions.jinja

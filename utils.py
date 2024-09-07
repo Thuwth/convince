@@ -1,4 +1,5 @@
 import fitz
+import yaml
 from jinja2 import Template
 
 def extract_text_from_pdf(file_path):
@@ -97,3 +98,9 @@ def read_chat_answer_prompt(
                 {"role": "user", "content": Input}
             ]
     return messages
+
+def read_yaml(yaml_path):
+    with open(yaml_path, "r", encoding="utf-8") as fr:
+        configs = yaml.load(fr, Loader=yaml.FullLoader)
+    assert type(configs) == "dict", "The read result is not a dict."
+    return configs

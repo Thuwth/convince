@@ -1,0 +1,2 @@
+system_path: templates/llama3/system/get_chat_answers/get_chat_answers.jinja
+user_path: templates/llama3/user/get_chat_answers/get_chat_answers.jinja
