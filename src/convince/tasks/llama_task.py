@@ -76,7 +76,7 @@ def get_chat_recommended_questions(
         history=history,
     )
     response = get_response(api_key=api_key, messages=messages, temp=temp)
-    return response
+    return messages, response
 
 def get_words_explanation(
         file_path,
@@ -124,5 +124,5 @@ def get_chat_answer(
         messages=messages,
         temp=temp
     )
-    return response
+    return messages, response
     
